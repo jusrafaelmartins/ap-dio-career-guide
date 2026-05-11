@@ -1,0 +1,171 @@
+Perfeito! Entendi completamente. Você quer que eu atue como o Agent 2 agora, usando os dados da nossa conversa para gerar o roadmap personalizado.
+
+Vou considerar que você escolheu a carreira do 1º lugar (Engenheiro de Dados), já que foi a mais pontuada e combina fortemente com seu perfil único de advogado + dev + dados.
+
+Caso queira outra carreira, é só me falar. Seguindo com Engenheiro de Dados:
+
+Olá! Recebi suas informações do entrevistador.
+
+Vejo que você escolheu ENGENHEIRO DE DADOS e tem 6 horas por semana para estudar. Perfeito!
+
+Vou montar agora seu plano completo personalizado...
+
+🧩 VISÃO DO DIA A DIA
+Como é o trabalho de um(a) Engenheiro(a) de Dados:
+
+Construir e manter pipelines que extraem dados de fontes diversas (APIs, bancos, arquivos) e carregam em data warehouses
+
+Garantir qualidade, consistência e confiabilidade dos dados (data validation, testes, documentação)
+
+Modelar dados para análises eficientes (star schema, data vault, normalized vs denormalized)
+
+Colaborar com analistas e cientistas de dados para entender requisitos de negócio e disponibilizar dados prontos para consumo
+
+Otimizar consultas e performance de ambientes de dados (SQL tuning, particionamento, indexing)
+
+🧠 MAPA DE SKILLS
+CORE SKILLS (essenciais):
+
+SQL avançado (joins, window functions, CTEs, otimização de consultas)
+
+Python focado em dados (Pandas, PySpark, requests, logging, agendamento)
+
+Modelagem de dados conceitual/lógica/física (dimensional, normalização)
+
+NICE-TO-HAVE (complementares):
+
+Conhecimento jurídico aplicado a dados legais (seu grande diferencial competitivo)
+
+Cloud básica (AWS/GCP/Azure - S3, BigQuery, Blob Storage)
+
+FERRAMENTAS E TECNOLOGIAS:
+
+Airflow (orquestração de pipelines)
+
+dbt (transformação de dados dentro do warehouse)
+
+PostgreSQL / BigQuery / Snowflake
+
+Git + GitHub (versionamento de código e dados)
+
+📅 ROADMAP DE 90 DIAS
+ADAPTADO PARA: 6 horas/semana
+
+MÊS 1 - FUNDAMENTOS
+SEMANA 1-2:
+
+Revisar/consolidar SQL avançado (30 min teoria + 1h prática por dia de estudo)
+
+Fazer exercícios no HackerRank/LeetCode (filtros, joins, group by, subqueries)
+
+SEMANA 3-4:
+
+Introdução ao Python focado em dados (Pandas: DataFrames, leitura/escrita de CSVs)
+
+Automatizar uma tarefa simples do seu sistema jurídico (ex: extrair metadados de um lote de decisões)
+
+MÊS 2 - PRÁTICA
+SEMANA 5-6:
+
+Construir seu primeiro pipeline ETL simples (extrair dados de uma API pública → transformar com Pandas → carregar em SQLite)
+
+Versionar tudo no GitHub (aprender commit, push, README)
+
+SEMANA 7-8:
+
+Introdução ao Airflow local (instalar via Docker, criar uma DAG com 2 tasks)
+
+Aplicar ao seu sistema jurídico: agendar uma task que processa novos documentos diariamente
+
+MÊS 3 - PORTFÓLIO E PREPARAÇÃO
+SEMANA 9-10:
+
+Refatorar seu pipeline atual do sistema jurídico para usar boas práticas (logs, tratamento de erros, documentação)
+
+Criar testes simples de qualidade de dados (ex: verificar se há datas nulas ou fora do intervalo)
+
+SEMANA 11-12:
+
+Preparar apresentação do projeto (gravando 3 min de vídeo explicando arquitetura e decisões)
+
+Atualizar LinkedIn com palavras-chave: Engenharia de Dados, Legaltech, ETL, SQL, Python
+
+🚀 PROJETO DE PORTFÓLIO
+PROJETO: Pipeline de Decisões Judiciais para Análise Estratégica
+
+O QUE FAZER:
+Usar seu próprio sistema jurídico como case real. Construir um pipeline que:
+
+Extrai um subset de decisões (ex: acórdãos do último mês) de um arquivo grande (50GB)
+
+Limpa e estrutura os dados (remove duplicidades, padroniza campos, extrai data, tribunal, relator)
+
+Carrega em um banco de dados analítico (PostgreSQL ou DuckDB)
+
+Permite consultas SQL para responder perguntas como: "quais assuntos mais recorrentes?", "tempo médio de julgamento?"
+
+ENTREGÁVEIS:
+
+Código do pipeline completo no GitHub (organizado em scripts/pasta)
+
+README explicando arquitetura, como executar e exemplos de consultas
+
+Documentação simples de qualidade de dados implementada
+
+CRITÉRIOS DE ACEITAÇÃO:
+
+O pipeline roda sem erros em menos de 30 min (num subset de 1GB para testes)
+
+Pelo menos 3 consultas analíticas são documentadas com resultados
+
+Código tem comentários mínimos e tratamento de erros básico
+
+DICA: Comece com um pequeno volume (1000 decisões) para validar, depois escale gradualmente. Seu conhecimento jurídico será seu superpoder para identificar quais campos realmente importam.
+
+💬 ROTEIRO DE ENTREVISTAS
+PERGUNTA 1: "Você tem experiência com grandes volumes de dados? Como lidou com performance?"
+
+COMO RESPONDER:
+"Sim, no meu projeto pessoal de sistema jurídico, trabalho com um dataset de 50GB de decisões judiciais. Inicialmente tive problemas de performance, então aprendi a usar particionamento por data e otimizar consultas SQL com índices estratégicos. Também implementei processamento em lote em vez de linha a linha, reduzindo o tempo de 2h para 20min."
+
+PERGUNTA 2: "Por que você quer migrar do direito para engenharia de dados?"
+
+COMO RESPONDER:
+"Minha experiência como advogado me mostrou o quão valiosos são os dados jurídicos quando bem estruturados. Comecei a programar para construir meu próprio sistema e descobri que minha paixão é criar pipelines que transformam dados brutos em informações acionáveis. Engenharia de dados me permite unir minha bagagem técnica com minha visão de negócio jurídico, algo raro no mercado."
+
+PERGUNTA 3: "Explique a diferença entre ETL e ELT. Quando usar cada um?"
+
+COMO RESPONDER:
+"ETL transforma antes de carregar, ideal para dados sensíveis ou quando a fonte tem pouca capacidade. ELT carrega primeiro e transforma dentro do warehouse, melhor para grandes volumes e quando preciso flexibilidade nas transformações. No meu sistema jurídico, uso ELT porque os 50GB de decisões são carregados 'cru' no banco e depois transformo conforme novas análises são solicitadas."
+
+PERGUNTA 4: "Como você garante qualidade de dados em um pipeline?"
+
+COMO RESPONDER:
+"Implemento três camadas: 1) validação na origem (campos obrigatórios, tipos corretos), 2) testes de integridade após carga (sem duplicatas, chaves consistentes), 3) monitoramento contínuo com alerts para anomalias (ex: volume de dados muito abaixo do esperado). No meu projeto jurídico, adicionei verificações como 'datas não podem ser futuras' e 'número de processo deve ter formato válido'."
+
+PERGUNTA 5: "Como você explicaria um pipeline de dados para um advogado que não entende de tecnologia?"
+
+COMO RESPONDER:
+"Eu diria que é como um escritório de advocacia: a extração é receber os autos físicos, a transformação é a equipe organizando, digitalizando e classificando por assunto, e o carregamento é colocar tudo num sistema de busca onde você pode perguntar 'quais casos sobre INSS foram ganhos em 2023?'. Meu trabalho é garantir que esse escritório virtual nunca perca um documento e entregue a resposta rapidamente."
+
+🎓 TRILHA DIO RECOMENDADA
+TRILHA: Formação Engenharia de Dados com Python e SQL (ou Bootcamp Data Engineer disponível no catálogo)
+
+POR QUE ESSA TRILHA:
+A DIO oferece cursos objetivos que cobrem exatamente os pilares que você precisa: SQL para análise de dados, Python essencial para dados, e introdução a pipelines com Airflow. Além disso, os desafios de código e projetos guiados vão te dar prática sem precisar começar do zero – você já pode adaptar cada exercício para o seu contexto jurídico, acelerando o aprendizado.
+
+PRÓXIMOS PASSOS:
+
+Acesse dio.me
+
+Busque por "Engenharia de Dados" ou "Data Engineer"
+
+Inscreva-se gratuitamente
+
+Siga o cronograma junto com este roadmap – use seus 6h/semana alternando entre DIO (teoria) e seu projeto pessoal (prática)
+
+✨ Seu plano está pronto!
+
+Lembre-se: o mais importante é a constância, não a velocidade. Comece pela Semana 1 e vá no seu ritmo.
+
+Tem alguma dúvida sobre o plano? Posso detalhar alguma parte específica ou recalcular para outra carreira (tivemos Full-Stack e Dados como opções)?
