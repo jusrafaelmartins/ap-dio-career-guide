@@ -18,19 +18,19 @@ O desafio consistia em criar dois **Agentes de IA** especializados:
 - **Projeto atual**: Sistema jurídico com 50GB de decisões judiciais (web + dados + infraestrutura)
 - **Disponibilidade**: 6 horas/semana para estudos
 - **Objetivo**: Transição de carreira para área de dados/engenharia
-- **Carreira escolhida**: Engenheiro de Dados (após análise do Agent 1)
+- **Carreira escolhida (Pela IA)**: Engenheiro de Dados (após análise do Agent 1)
 
 ---
 
 ## 🎯 Objetivo dos Arquivos
 
-### `entrevista_agent1.md`
+### `promtp1-opcoes-carreira.md`
 Contém a entrevista completa conduzida pelo **Agent 1**, com:
 - 7 perguntas e respostas sobre interesses, experiência, disponibilidade, preferências e objetivos
 - Análise do perfil e sugestão das 3 carreiras mais promissoras ranqueadas
 - Transferência de informações para o Agent 2
 
-### `roadmap_agent2.md`
+### `prompt2-guia.md`
 Contém o plano de estudos gerado pelo **Agent 2**, com:
 - Visão do dia a dia da carreira (Engenheiro de Dados)
 - Mapa de skills (essenciais, complementares e ferramentas)
@@ -84,6 +84,8 @@ No entanto, pessoalmente não concordo que esse seja o melhor caminho para mim.
 Meu objetivo principal é ser Desenvolvedor (DEV) – full-stack ou backend – com um diferencial: gosto de mexer em todas as camadas (web, dados, infra), mas sempre com o foco no desenvolvimento de produtos, não na especialização pura em dados.
 
 A Engenharia de Dados é uma área incrível e que certamente me beneficiaria, mas minha paixão está em construir sistemas completos, resolver problemas com código e criar produtos funcionais do início ao fim.
+
+Eu poderia ter mudado para o que eu queria, mas como foi só um teste eu usei o que foi achado e queria o insight também.
 
 Resumo: Gosto de dados, mas não quero ser engenheiro de dados. Quero ser um DEV que também entende profundamente de dados.
 
